@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My JavaScript</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <style>
+     
+    </style>
+  </head>
+  <body>
+    <header><h1>BMI計算機</h1></header>
+<main>
+  <p>身長と体重を入力して「計算」をクリックしてください</p>
+  <div class="container">
+    身長<input type="text" id="height">cm<br>
+    体重<input type="text" id="weight">kg
+    <p class="error"></p>
+    <button type="submit" id="calc-btn">計算</button>
+    <button type="reset" id="reset-btn">リセット</button>
+  </div>
+  <hr />
+    <div class="container">
+      <h2>診断結果</h2>
+      <p id="result"></p>
+      <p id="bmi-data">計算後、診断結果が表示されます</p>
+    </div>
+    <div class="container">
+      <h2>コメント</h2>
+      <p id="message">計算後、コメントが表示されます</p>
+    </div>
+    <hr />
+    <div class="container">
+      <h2>対策のヒント</h2>
+      <p>ヒント表示</p>
+    </div>
+</main>
+<footer>Copyright (C) 2023 omurais.inc. All Rights Reserved.</footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

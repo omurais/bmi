@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+/* BMI */
+/* common */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  text-align: center;
+  background: cornflowerblue;
+  color: #fff;
+  padding: 8px 0;
+}
+
+main{
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  font-size: 10px;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px dotted #888;
+}
+
+h1{
+  font-size: 24px;
+}
+
+h2{
+  font-size: 20px;
+  background:cornflowerblue;
+  margin: 0 16px;
+}
+
+p{
+  margin-top: 16px;
+}
+
+hr{
+  margin: 16px;
+  border: 1px dotted #888;
+}
+
+/* main contents*/
+.container{
+  margin-top: 16px;
+}
+
+/* calc content*/
+input{
+  margin: 0 4px;
+  width: 60%;
+  max-width: 380px;
+  height: 1.5rem;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+#weight{
+  margin-top: 16px;
+}
+
+#calc-btn{
+  background: blue;
+  color: #fff;
+}
+
+#reset-btn{
+  background: red;
+  color: #fff;
+}
+
+button{
+  all: unset;
+  cursor: pointer;
+  margin-top: 16px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 8px;
+  width: 80px;
+  font-weight: bold;
+  border: 2px solid #333;
+}
+
+/* result content*/
+.low{
+  background: skyblue;
+  font-weight: bold;
+  padding: 8px 0;
+  width: 80px;
+  margin: 16px auto 0;
+}
+
+.normal{
+  background: lightgrey;
+  font-weight: bold;
+  padding: 8px 0;
+  width: 80px;
+  margin: 16px auto 0;
+}
+
+.fat{
+  background: red;
+  color: #fff;
+  font-weight: bold;
+  padding: 8px 0;
+  width: 80px;
+  margin: 16px auto 0;
+}
