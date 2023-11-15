@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ブラウザテスト</title>
+    <link rel="stylesheet" href="css/browser.css" />
+  </head>
+  <body>
+    <div class="one" id="content1">
+      <p>page 1</p>
+      <a id="js-btn" href="#content2">▼page 2</a>
+    </div>
+    <div class="two" id="content2">
+      <p>page 2</p>
+      <a id="js-btn" href="#content3">▼page 3</a>
+    </div>
+    <div class="three" id="content3">
+      <p>page 3</p>
+      <a id="js-btn" href="#content1">▲page 1</a>
+    </div>
+    <script src="js/browser.js"></script>
+  </body>
+</html>
