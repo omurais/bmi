@@ -9,7 +9,7 @@
 
 header{
   text-align: center;
-  background: cornflowerblue;
+  background: blue;
   color: #fff;
   padding: 8px 0;
 }
@@ -39,6 +39,11 @@ h2{
 
 p{
   margin-top: 16px;
+}
+
+hr{
+  margin: 16px;
+  border: 1px dotted #ccc;
 }
 
 /* main contents*/
