@@ -37,6 +37,10 @@
       result.textContent = '普通体重';
       result.classList.add('normal');
       msg.textContent = "問題ありません";
+    } else if (fixedData >= 40) {
+      result.textContent = '肥満';
+      result.classList.add('fat');
+      msg.textContent = "要減量。医師へ診断をお勧めします";
     } else if (fixedData >= 25) {
       result.textContent = '肥満';
       result.classList.add('fat');
@@ -49,7 +53,9 @@
 
     if (fixedData < 25 && fixedData > 20) {
       measure.textContent = "通常通りの生活をしてください";
-    } else if (fixedData >= 25) {
+    } else if (fixedData >= 40) {
+      measure.textContent = "高カロリーを控え間食を控えましょう。週２回適度な運動をおこない徐々に減量を心がけましょう";
+    }else if (fixedData >= 25) {
       measure.textContent = "揚げ物と糖質を控え、洋食よりも和食を採り、週1回1時間の運動をしましょう";
     } else if(fixedData <= 20) {
       measure.textContent = "2,000kcal/日を目安に、1日3食主食をしっかり取りましょう";
